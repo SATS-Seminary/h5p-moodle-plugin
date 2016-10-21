@@ -83,6 +83,8 @@ $string['enablesavecontentstate'] = 'Save content state';
 $string['enablesavecontentstate_help'] = 'Automatically save the current state of interactive content for each user. This means that the user may pick up where he left off.';
 $string['contentstatefrequency'] = 'Save content state frequency';
 $string['contentstatefrequency_help'] = 'In seconds, how often do you wish the user to auto save their progress. Increase this number if you\'re having issues with many ajax requests';
+$string['enabledlrscontenttypes'] = 'Enable LRS dependent content types';
+$string['enabledlrscontenttypes_help'] = 'Makes it possible to use content types that rely upon a Learning Record Store to function properly, like the Questionnaire content type.';
 
 // Admin menu.
 $string['settings'] = 'H5P Settings';
@@ -255,17 +257,6 @@ $string['couldnotcopy'] = 'Could not copy file.';
 
 // Welcome messages
 $string['welcomeheader'] = 'Welcome to the world of H5P!';
-$string['welcomegettingstarted'] =
-    'To get started with H5P and Moodle take a look at our ' .
-    '<a {$a->moodle_tutorial}>tutorial</a> and check out the ' .
-    '<a {$a->example_content}>example content</a> at H5P.org for inspiration.<br>' .
-    'The most popuplar content types have been installed for your convenience!';
-$string['welcomecommunity'] =
-    'We hope you will enjoy H5P and get engaged in our growing community through our ' .
-    '<a {$a->forums}>forums</a> and chat room ' .
-    '<a {$a->gitter}>H5P at Gitter</a>';
-$string['welcomecontactus'] =
-    'If you have any feedback, don\'t hesitate to ' .
-    '<a {$a}>contact us</a>. ' .
-    'We take feedback very seriously and are dedicated ' .
-    'to making H5P better every day!';
+$string['welcomegettingstarted'] = 'To get started with H5P and Moodle take a look at our <a {$a->moodle_tutorial}>tutorial</a> and check out the <a {$a->example_content}>example content</a> at H5P.org for inspiration.<br>The most popuplar content types have been installed for your convenience!';
+$string['welcomecommunity'] = 'We hope you will enjoy H5P and get engaged in our growing community through our <a {$a->forums}>forums</a> and chat room <a {$a->gitter}>H5P at Gitter</a>';
+$string['welcomecontactus'] = 'If you have any feedback, don\'t hesitate to <a {$a}>contact us</a>. We take feedback very seriously and are dedicated to making H5P better every day!';
